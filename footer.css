@@ -1,0 +1,133 @@
+footer {
+  width: 1440px;
+  height: 561px;
+  background: var(--neutral-white, #fff);
+  position: absolute;
+  align-items: center;
+
+  background-image: url(/Images/Group\ 2.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#logo_container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  margin-left: 203px;
+}
+
+#ft_logo {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+#ftl_name {
+  display: flex;
+  width: 99px;
+  height: 24px;
+  flex-direction: column;
+  justify-content: center;
+
+  color: var(--text-color-main-text, #141414);
+
+  /* H2/Bold */
+  font-size: 24px;
+  font-family: Gilroy-Bold;
+  line-height: 32px;
+  text-decoration: none;
+}
+#about {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-left: 39px;
+}
+
+#socials {
+  display: flex;
+  padding: 0px 8px;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.ar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 56px;
+}
+.arb {
+  display: flex;
+  padding: 0px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+#arc {
+  display: flex;
+  padding: 0px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+#arc > p {
+  color: var(--neutral-800, #112232);
+  font-size: 16px;
+  font-family: Gilroy-Medium;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+.arb > p {
+  color: var(--neutral-800, #112232);
+  font-size: 16px;
+  font-family: Gilroy-Medium;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+.ft_heads {
+  color: var(--neutral-900, #071827);
+
+  /* H4/Bold */
+  font-size: 16px;
+  font-family: Gilroy-Bold;
+  line-height: 24px;
+}
+
+#cw {
+  display: inline-flex;
+  padding: 0px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  float: right;
+  margin-right: 126px;
+}
+#cw > p {
+  color: var(--neutral-800, #112232);
+  font-size: 14px;
+  font-family: Gilroy-Medium;
+  line-height: 20px;
+}
+
+#bl_bg {
+  width: 804.529px;
+  height: 596.138px;
+  flex-shrink: 0;
+  opacity: 0.800000011920929;
+  position: relative;
+}
+
+#tf_bg {
+  width: 804.529px;
+  height: 596.138px;
+  transform: rotate(-7.591deg);
+  flex-shrink: 0;
+  opacity: 0.699999988079071;
+  position: relative;
+}
